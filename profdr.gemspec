@@ -2,14 +2,14 @@
 # based off <https://github.com/jekyll/minima/blob/master/minima.gemspec>
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-true-minimal"
-  spec.version       = "1.0.0"
-  spec.authors       = ["cyevgeniy"]
+  spec.name          = "profdr"
+  spec.version       = "0.0.1"
+  spec.authors       = ["chainsawriot"]
   spec.email         = [""]
 
-  spec.summary       = "Minimal and ascetic theme for jekyll."
-  spec.homepage      = "https://cyevgeniy.github.io/jekyll-true-minimal/"
-  spec.license       = "MIT"
+  spec.summary       = "A Jekyll theme for Prof Dr"
+  spec.homepage      = ""
+  spec.license       = "GPL2"
 
   spec.metadata["plugin_type"] = "theme"
 
