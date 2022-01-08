@@ -35,3 +35,10 @@ sass:
     style: :compressed
     sass_dir: assets/css/
 
+exclude:
+  - docs
+  - profdr*
+  - LICENSE
+  - README.md
+  - Makefile
+
