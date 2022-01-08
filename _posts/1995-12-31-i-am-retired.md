@@ -34,6 +34,13 @@ puts say.upcase
 5.times { puts say }
 ```
 
+But I will keep on programming in C++.
+
+```c++
+typedef std::unordered_map<std::string, std::tuple<unsigned int, unsigned int, unsigned int>> puzzlebook;    
+puzzlebook parse_all(std::vector<std::string> input); // Just the declaration
+```
+
 ## Other hobbies in my retirement
 
 1. Playing the boardgame "Thrun und Taxis"
