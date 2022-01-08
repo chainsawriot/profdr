@@ -6,6 +6,8 @@ date:   1995-12-31 23:22:40 +0100
 
 If you want to address me in my full name: *Prof. Dr. em. Ludwig Philipp Maria Joseph Maximilian Lamoral Fürst von Thurn und Taxis*.
 
+<img src = "{{ '/assets/jet.png' | relative_url }}" width = 700>
+
 As I am retired I am no longer taking on any new interns, master students, PhD students or any other types of collaborators.
 
 # For academic matters
