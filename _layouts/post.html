@@ -3,8 +3,17 @@ layout: default
 ---
 <h1>{{ page.title }}{{ page.shortUrl }}</h1>
 <div class='separator'></div>
-        
+
+{% if page.date %}
+<p class = "post-meta">Posted on {{ page.date | date: site.date_format }}
+  {% if site.author.name %}
+  by {{site.author.name}}
+  {% endif %}
+</p>
+{% endif %}
+
+
 {{ content }}
-        
+
 {% if site.disqus-id %} {% include comments.html %} {% endif %}
 
