@@ -12,7 +12,7 @@
     </title>
 
     {% if site.highlighter %}
-        <link rel='stylesheet' href='{{ site.url }}/assets/css/main.css' type='text/css'>
+        <link rel='stylesheet' href="{{ '/assets/css/main.css' | relative_url }}" type='text/css'>
     {% endif %}
     
     <meta name='viewport' content='width=device-width, initial-scale=1'>

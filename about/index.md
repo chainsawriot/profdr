@@ -8,7 +8,6 @@ layout: default
 
 Prof. Dr. em von Thurn und Taxis still teaches occasionally at the Universität Tierheim, Switzerland.
 
-<img src = "{{ site.url }}/assets/mailbox.gif">ludwigphilipp.vonthurnundtaxis at uni-tierheim dot ch
+<img src = "{{ '/assets/mailbox.gif' | relative_url }}">ludwigphilipp.vonthurnundtaxis at uni-tierheim dot ch
 
 This homepage is best viewed with Netscape Navigator.
-

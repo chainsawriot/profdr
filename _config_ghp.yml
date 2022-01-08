@@ -1,0 +1,44 @@
+name: "Prof. Dr. em. Ludwig Philipp von Thurn und Taxis' Homepage"
+description: "Last update: 31-12-1995"
+author:
+  name: Ludwig Philipp von Thurn und Taxis
+
+url: 'https://chainsawriot.github.io' 
+baseurl: 'profdr'
+
+# Set this to "#c0c0c0" for the 90s effect
+# This color is inspired by Bjarne Stroustrup's homepage
+# https://www.stroustrup.com/index.html
+bgcolor: "#FFFBFB"
+
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-paginate
+paginate: 20
+paginate_path: /page-:num
+
+date_format: "%b %-d, %Y"
+
+#disqus-id: your-disqus-id
+
+source: .
+destination: ./_site
+
+sass:
+    style: :compressed
+    sass_dir: assets/css/
+
+exclude:
+  - docs
+  - profdr*
+  - LICENSE
+  - README.md
+  - Makefile
+
