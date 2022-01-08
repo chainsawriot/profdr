@@ -4,3 +4,4 @@ A theme for [Prof. Dr.](http://contemporary-home-computing.org/prof-dr-style/). 
 
 profdr was forked from [true minimal theme](https://github.com/cyevgeniy/jekyll-true-minimal/), which is copyrighted [cyevgeniy](https://github.com/cyevgeniy/) and released under the GPL-2.0 License. See LICENSE.
 
+For a demo, please visit: [https://chainsawriot.github.io/profdr/](https://chainsawriot.github.io/profdr/)
