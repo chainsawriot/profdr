@@ -21,6 +21,7 @@ kramdown:
 
 plugins:
   - jekyll-paginate
+  - jekyll-seo-tag
 paginate: 20
 paginate_path: /page-:num
 
@@ -42,3 +43,6 @@ exclude:
   - README.md
   - Makefile
 
+twitter:
+  username: chainsawriot
+  card: summary
