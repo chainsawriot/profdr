@@ -46,3 +46,4 @@ exclude:
 twitter:
   username: chainsawriot
   card: summary
+annotate_links: true
